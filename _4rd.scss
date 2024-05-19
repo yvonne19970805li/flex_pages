@@ -1,0 +1,54 @@
+.main {
+    width: 640px;
+    height: 240px;
+    box-sizing: border-box;
+    display: flex;
+
+    .news {
+        margin-bottom: 24px;
+        max-width: 288px;
+        margin: 0 20px;
+
+        .img {
+            max-width: 96px;
+            max-height: 96px;
+            display: inline-block;
+        }
+
+        .word {
+            display: inline-block;
+
+            .title {
+                font-size: $font-l;
+                line-height: $line-heigth-l;
+                color: red;
+            }
+
+            .lorem {
+                font-size: $font-r;
+                line-height: $line-heigth-r;
+            }
+        }
+    }
+
+    .ad {
+        min-width: 216px;
+        min-height: 216px;
+        margin-bottom: 24px;
+        display: inline-block;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
+
+.footer {
+    width: 640px;
+    height: 120px;
+    font-size: $font-r;
+    line-height: $line-heigth-r;
+}
